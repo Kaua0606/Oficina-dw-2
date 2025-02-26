@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Encontro 02</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="fita.css">
+    <link rel="stylesheet" href="banda.css">
+    <style>
+        p {
+            color: green;
+        }
+
+        #primeira-div {
+            background-color: blue;
+            text-decoration: underline;
+        }
+
+        #segunda-div {
+            color: white;
+            background-color: red;
+            text-decoration: line-through;
+        }
+
+        .outras-divs {
+            color: yellow;
+            background-color: green;
+        }
+
+
+        .bloco{
+            width: 3rem;
+            height:3rem;
+            border-radius: .5rem;
+            background-color: skyblue;
+            margin: 1rem;
+            padding:1rem;
+        }
+
+        .faixa{
+            background-color: yellow;
+            color:rosybrown;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .barra {
+            background-color: blue;
+            color:yellow;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        #tora{
+            background-color: greenyellow;
+            color: gray;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .madeira{
+            background-color: rebeccapurple;
+            color: brown;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .container{
+            height: 30rem;
+            border: solid .5px gray;
+            border-radius: .5rem;
+            padding: 1rem;
+            box-shadow: .5rem .5rem .3rem .3rem gray;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .item{
+            width: 4rem;
+            height: 4rem;
+            border: 1rem solid burlywood;
+            border-radius: .5rem;
+            color: burlywood;
+            background-color:orangered;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="color:red;">
+        Isto é um paragrafo.
+    </p>
+
+    <div id="primeira-div">
+        Esta é a primeira DIV.
+    </div>
+
+    <div id="segunda-div">
+        Esta é a segunda DIV.
+    </div>
+
+    <div class="outras-divs">
+        Esta é a terceira DIV.
+    </div>
+
+
+    <div class="outras-divs">
+        Esta é a quarta DIV.
+    </div>
+
+    <div class="bloco">Isto é um bloco.</div>
+    <div class="bloco">Isto é um bloco.</div>
+    <div class="bloco">Isto é um bloco.</div>
+
+    <div class="faixa barra">
+        Esta é a quinta DIV.
+    </div> 
+
+    <div class="barra faixa">
+        Esta é a sexta DIV.
+    </div> 
+
+    <div class="banda fita">Esta é a setima DIV.</div>
+    <div class="fita banda">Esta é a oitva DIV.</div>
+
+    <div id="tora" class="madeira">
+        Esta é a nona DIV.
+    </div>
+
+    <div id="container">
+        <div class="item">Item 01</div>
+        <div class="item">Item 02</div>
+        <div class="item">Item 03</div>
+        <div class="item">Item 04</div>
+        <div class="item">Item 05</div>
+        <div class="item">Item 06</div>
+        <div class="item">Item 07</div>
+        <div class="item">Item 08</div>
+        <div class="item">Item 09</div>
+        <div class="item">Item 10</div>
+        <div class="item">Item 11</div>
+        <div class="item">Item 12</div>
+    </div>
+</body>
+
+</html>
